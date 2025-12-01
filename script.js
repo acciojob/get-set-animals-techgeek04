@@ -1,11 +1,11 @@
 //complete this code
 class Animal {
 	constructor(species){
-		this.species = species;
+		this._species = species;
 	}
 
 	get species(){
-		return this.species;
+		return this._species;
 	}
 
 	makeSound(){
@@ -15,7 +15,7 @@ class Animal {
 
 class Dog extends Animal {
 	bark(){
-		console.log("bark");
+		console.log("woof");
 	}
 }
 
